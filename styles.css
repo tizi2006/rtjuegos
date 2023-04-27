@@ -1,0 +1,56 @@
+.img2{    
+    height: 247px;
+    width: 220px;
+    margin-left: 15px;
+    margin-top: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px;
+    cursor: pointer;
+
+}
+.contenedor{  
+    margin: 150px;
+    margin-top: 40px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+  
+#body{
+    background-image:url(IMG/ps2.png);
+
+}
+#body2{
+    background-image:url(IMG/fondo2.jpg);
+
+
+
+}
+   
+
+header{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 1%;
+    background-color: #2bb7e2;
+}
+
+a{
+    text-decoration: none;
+}
+.img2:hover{
+    transform: scale(1.2);
+
+}
+
